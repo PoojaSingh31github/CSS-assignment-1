@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=IBM+Plex+Sans:wght@300;400&family=Jost&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fuggles&family=Jost&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fuggles&family=Jost&family=Roboto+Condensed&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fuggles&family=Jost&family=Mooli&family=Roboto+Condensed&family=Sedgwick+Ave+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify{
+    justify-content: space-between;
+}
+
+
+.contact{
+    padding: 20px 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+.contact .contact-details span{
+    font-weight: 500;
+}
+.contact .contact-details p:first-child{
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid silver;
+}
+.contact .social-icons i{
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+
+nav{
+    border-bottom: 1px solid rgb(194, 186, 186);
+}
+nav img{margin: 20px 0;}
+nav ul li{
+    list-style: none;
+    padding: 30px 15px;
+    border-left: 1px solid silver;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+nav ul li:last-child{
+    border-right: 1px solid silver;
+}
+
+
+.banner-image{
+    background: url(./images/banner4.jpg);
+    width: 100%;
+    height: 550px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.banner-image .bann{
+    align-items: center;
+    height: 100%;
+}
+.banner-image .bann .banner-text{
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fff;
+    
+}
+.banner-text p{
+    font-size: 22px;
+    color: #fe9f10;
+}
+.banner-image .bann .banner-text h1{
+    font-size: 52px;
+    font-weight: 400;
+    font-family: 'Mooli', sans-serif;
+}
+.banner-image .bann .banner-text h4{
+    font-size: 22px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-family: 'Alex Brush',cursive;
+}
+.banner-image .bann .banner-text button{
+    font-size: 20px;
+    padding: 15px 35px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #fe9f10;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-image .bann .banner-text button:hover{
+    color: black;
+    background-color: #fd5c63;
+}
+
+.business{
+    background-color: #fcf9f4;
+
+}
+.text{
+    text-align: center;
+    align-items: center;
+    padding: 25px 0px;
+    font-size: 19px;   
+    display: flex;
+    justify-content: space-between;
+}
+.business .text button:hover{
+    color: black;
+    background-color: #fd5c63;
+}
+.text span{
+    color: #fe9f10;
+}
+.text button{
+    padding: 12px;
+    font-size: 21px;
+    background-color: #fe9f10;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Blog section start here */
+.reviews{
+    text-align: center;
+    padding: 50px 0;
+}
+.reviews p{
+    padding: 10px 0;
+    font-weight: 600;
+}
+.blog-data{
+    width: 32%;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+.blog-data .twi{
+    padding: 10px;
+    background-color: #f86e4e;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 80%;
+    font-size: 16px;
+    color: #fff;
+}
+.blog-data .blog-content p{
+    font-size: 12px;
+    font-weight: 300;
+    padding: 7px 0;
+}
+.blog-data .blog-content span{
+    color: #f86e4e;
+    font-size: 11px;
+}
+.blog-3{
+    width: 32%;
+    position: relative;
+}
+.blog-3 .blog-text{
+    background-color: #eeeeee;
+    padding: 22px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-style: italic;
+}
+.blog-3 .bloger{
+    margin-left: 20px;
+    align-items: center;
+    font-size: 14px;
+    color: #848484;
+    position: absolute;
+    bottom: -40px;
+}
+.blog-3 .bloger img{
+    border-radius: 100%;
+}
+.blog-3 .bloger p:nth-child(2){
+    margin:0 5px;
+    font-weight: 600;
+}
+
+
+.latest{
+    padding: 20px 0;
+}
+.latest .icons i{
+    border: 1px solid  silver;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+.projects{
+    padding: 20px 0;
+}
+.projects p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.project-name{
+    width: 24%;
+
+}
+.project-name > img{
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 300px;
+}
+.project-name .details{
+    padding: 15px 10px;
+    align-items: center;
+    background-color: #F8F4F0;
+}
+.project-name .chef-name{
+    font-size: 17px;
+    font-weight: 600;
+} 
+.project-name .chef-name p:nth-child(2){
+    font-size: 14px;
+    font-weight: 500;
+    color: #fe9f10;
+}
+
+.project-name .hover{
+    visibility: hiden;
+    position: absolute;
+    top: 0;
+    background-color: #f86e4e;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+.project-name:hover .hver{
+    visibility:visible;
+    transition-delay: 0.2s;
+    cursor: pointer;
+}
+
+
+.inspira{
+    background: url(./images/banner-image-2.jpg);
+    opacity: 0.9;
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: #fff;
+    /* text-align: center; */
+}
+.inspira .text{
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 10px; */
+    /* text-align: center; */
+    /* background-color: #848484; */
+}
+.inspira .text h1{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.inspira .text button{
+    padding: 12px;
+    font-size: 14px;
+    background-color: #fe9f10;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inspira .text button:hover{
+    color: black;
+    background-color: #fd5c63;
+}
+
+.latest-news{
+    /* width: 50%; */
+    padding: 30px 0;
+}
+.latest-news h3{
+    font-weight: 500;
+    font-size: 22px;
+}
+.latest-news .dates{
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+    display: flex;
+    height: 200px;
+}
+.latest-news .dates img{width: 200px;}
+.latest-news .desc{width: 90%;}
+.latest-news .date{
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    background-color: #fe9f10;
+}
+.latest-news .date span{
+    background: #555;
+    font-size: 26px;
+    padding: 26px;
+    align-items: center;
+    display: flex;
+    height: 80%;
+}
+.latest-news .date p{
+    padding: 3px 0;
+    font-size: 12px;
+    background-color: #fe9f10;
+}
+.latest-news .date-description{
+    /* height: 16vh; */
+    /* width: 85%; */
+    padding:20px;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.latest-news .date-description span{
+    color: #f86e4e;
+    font-size: 13px;
+}
+.latest-news .date-description p{
+    font-size: 14px;
+    font-weight: 10;
+    padding: 10px 0;
+}
+.latest-news .date-description h6{
+    font-weight: 300;
+}
+.latest-news .date-description span{
+    color: #f86e4e;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #222222;
+    color: #fff;
+}
+.footer-section{
+    padding: 50px 0;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.box{
+    width: 23%;
+}
+.footer-section .content-2 h2, .footer-section .content-3 h2, .footer-section .content-4 h2{
+    font-family: 'PT Sans',Arial, Helvetica, sans-serif;
+    padding-bottom: 12px;
+    font-weight: 400;
+}
+.footer-section .content-2 li{
+    list-style: none;
+    padding: 5px 0;
+    border-bottom: 1px solid silver;
+}
+
+.footer-section .content-3 button{
+    padding: 5px 7px;
+    margin-bottom: 5px;
+    background-color: #f86e4e;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-section .content-4 p{
+    color: #848484;
+    font-weight: 500;
+}
+.footer-section .content-4 p> span{
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.footer-menu{
+    background-color: #eee;
+    color: #848484;
+    font-size: 12px;
+}
+.footer-menu .copy{
+    padding: 22px 0;
+}
+.footer-menu .copy ul li{
+    list-style: none;
+    padding: 0 10px;
+    border-right: 1px solid silver;
+    color: #646464;
+}
+.footer-menu .copy ul li:first-child{
+    border-left: 1px solid silver;
+}
